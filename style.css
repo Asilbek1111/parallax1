@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2b1055), to(#7597de));
+  background-image: linear-gradient(#2b1055, #7597de);
+  overflow-x: hidden;
+}
+
+body header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1% 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+body header .list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .list li {
+  margin-left: 20px;
+}
+
+body header .list li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: white;
+  border-radius: 15px;
+}
+
+body header .list li a:hover {
+  background-color: white;
+  color: #2b1055;
+}
+
+body #active {
+  color: #2b1055;
+  background: white;
+}
+
+body section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1c0522), to(transparent));
+  background: linear-gradient(to top, #1c0522, transparent);
+  z-index: 1000;
+}
+
+body section #moon {
+  mix-blend-mode: screen;
+}
+
+body section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  pointer-events: none;
+}
+
+body section .text {
+  position: absolute;
+  color: white;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  right: -200px;
+}
+
+body section #mountains-front {
+  z-index: 10;
+}
+
+body section #mountains_behind {
+  z-index: -1;
+}
+
+body #btna {
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: #fff;
+  color: #2b1055;
+  font-size: 1.5em;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.sec {
+  position: relative;
+  padding: 100px;
+  background-color: #1c0522;
+}
+
+.sec h2 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.sec p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
